@@ -1,0 +1,139 @@
+/* -------------------------------------------------------------------- */
+/*why choose us*/
+
+.choose
+{
+    background-color: rgba(0, 0, 0, 0.004);
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+
+}
+.chooseinfo
+{
+    margin-left: 50px;
+    width: 80%;
+    margin: auto;
+    
+    
+}
+
+.h2choose
+{
+    color: rgb(167, 18, 98);
+    padding-top: 70px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.h3choose
+{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-top: 100px ;
+    padding-bottom: 20px;
+    color: rgb(167, 18, 98);
+}
+
+.h4choose
+{
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 5px;
+    line-height: 22px;
+    line-height: 30px;
+    
+}
+
+
+
+.imgchoose
+{
+    
+    display: inline;
+    margin-top: -200px;
+    margin-left: 650px;
+
+    width: 400;
+    height: 250;
+    
+    
+}
+
+.parentcircle
+{
+    margin-left: 800px;
+    padding: 10px;
+}
+
+.circle
+{
+    float: left;
+    width: 20;
+    height: 20;
+    border-radius: 50%;
+    background-color: rgb(149, 143, 143);
+
+}
+
+.circle:hover
+{
+   background-color: rgb(228, 42, 154);
+    
+}
+
+#div1circle
+{
+    background-color: rgb(228, 42, 154);
+}
+
+#div2circle
+{
+    margin:0px 7px;
+}
+
+/* awards */
+
+.awards
+{
+    background-image: url("../images/bg5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 80px;
+   
+}
+
+.awardcontainer
+{
+ 
+    height: 22vh;
+    background-color: rgba(0, 0, 0, 0.208);
+    font-size: 19px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 50px 200px;
+    overflow: auto;
+  
+}
+
+
+
+.divaward
+{
+    text-align: center;
+    padding: 0px 200px;
+    float: left;
+    line-height:35px;
+    
+}
+
+
+.divaward i
+{
+    color: rgb(155, 6, 95);
+}

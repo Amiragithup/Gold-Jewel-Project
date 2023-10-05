@@ -1,0 +1,107 @@
+/* -------------------------------------------------------------------- */
+/* Services*/
+.services
+{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.123);
+    padding: 110px 0px;
+    
+}
+
+.h2services
+{
+    padding-top: 70px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(167, 18, 98);
+
+}
+
+/* divs */
+
+.servcontainer
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+
+
+.parentserv
+{
+    position: relative;
+    width: 30%;
+    background-color:rgba(245, 245, 245, 0.375);
+    float: left;
+    text-align: center;
+    padding: 10px;
+    height: 40vh;
+}
+
+
+.divserv
+{
+    padding-top: 20px;
+}
+
+
+.parentserv h2
+{
+    font-size: 27px;
+}
+
+.parentserv h3
+{
+    padding: 12px 3px;
+    
+}
+
+.parentserv button
+{
+
+    font-size: 17px;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.parentserv button a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+.divserv::after
+{
+    position: absolute;
+    content: "";
+
+    top: 0;
+    left: 0;
+
+    width: 0;
+    height: 0;
+
+    background-color: black;
+    opacity: 0;
+    z-index: -1;
+
+    transition: 3s;
+
+}
+
+.divserv:hover .h3about
+{
+    color: rgb(118, 115, 115);
+}
+
+.divserv:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    
+}

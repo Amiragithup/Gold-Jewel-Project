@@ -1,0 +1,104 @@
+/* -------------------------------------------------------------------- */
+/* Portfolio*/
+
+.portfolio
+{
+    background-color: rgba(0, 0, 0, 0.004);
+    height: 100vh;
+    position: relative;
+}
+
+.h2portfolio
+{
+    padding-top: 70px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(167, 18, 98);
+}
+
+.imgportfolio
+{
+   text-align: center;
+   padding: 50px 0px;
+
+}
+
+.infoportfolio
+{
+    margin-top: -320px;
+    margin-left: 190px;
+    visibility: hidden;
+}
+
+.h3portfolio
+{
+
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(205, 194, 197);
+   
+
+}
+
+.portfoliobutton
+{
+    font-size: 17px;
+    padding: 12px;
+    border-radius: 50%;
+    margin-left: 80px;
+    
+}
+
+.portfoliobutton a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.parentportfolio
+{
+    position: relative;
+    width: 600px;
+    background-color:rgba(245, 245, 245, 0.375);
+    height: 600px;
+    margin: 10px 450px;
+    
+}
+
+
+.divportfolio::after
+{
+    position: absolute;
+    content: "";
+
+    top: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: black;
+    opacity: 0;
+
+    transition: 1s;
+
+}
+
+.divportfolio:hover .infoportfolio
+{
+    visibility: visible;
+}
+
+
+.divportfolio:hover::after
+{
+    opacity: 0.3;
+}
+

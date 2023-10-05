@@ -1,0 +1,244 @@
+/* -------------------------------------------------------------------- */
+/*Amira Alaa*/
+
+
+.h2team
+{
+    padding-top: 70px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(167, 18, 98);
+
+}
+
+.divsectionme
+{
+
+    width: 100%;
+    background-image: url("../images/bg5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  
+
+}
+
+.myinfo
+{
+    
+    width: 100%;
+    height: 27vh;
+    background-color: rgba(0, 0, 0, 0.199);
+    text-align: center;
+    position: relative;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-right: 180px;
+    padding-top: 10px;
+    margin-top: 30px;
+
+}
+
+.amiraimg
+{
+    border-radius: 50%;
+    
+}
+
+.h2amira
+{
+    display: inline;
+    position: absolute;
+    top: 15;
+    padding-left: 10px;
+}
+
+.h3amira
+{
+    display: inline;
+    position: absolute;
+    top: 55;
+    padding-left: 10px;
+    
+    
+}
+
+.h4amira
+{
+    margin-left: 250px;
+    padding: 15px;
+}
+
+
+
+/* -------------------------------------------------------------------- */
+/*Teams*/
+
+.team
+{
+    
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.004);
+
+}
+
+
+/* divs */
+
+.line
+{
+    width: 90px;
+    height: 4px;
+    background-color: black;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.imggteam
+{
+    background-color: rgba(187, 95, 139, 0.66);
+    width: 100;
+    height: 100;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+
+}
+
+.imteam
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+
+.teamcontainer
+{
+
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+.parentteam
+{
+    width: 30%;
+    background-color:rgba(181, 177, 177, 0.21);
+    float: left;
+    text-align: center;
+    height: 40vh;
+    margin-left: 20px;
+    
+}
+
+
+.divteam
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    position: relative;
+    
+}
+
+
+
+.parentteam h2
+{
+    font-size: 27px;
+    padding: 20px 3px;
+}
+
+.parentteam h3
+{
+    padding: 20px 3px;
+    line-height: 30px;
+}
+
+
+ .icons 
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   color: #fff5f5;
+   background-color: black;
+   margin-top: 20px;
+   margin-right: 10px;
+   visibility: hidden;
+   transition: 3s;
+   opacity: 0;
+   
+   
+}
+
+
+
+.icons a
+{
+    width: 20px;
+    height: 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    
+    
+}
+
+.icons a i
+{
+    line-height: 24px;
+    
+}
+
+.divteam:hover .icons
+{
+    visibility: visible;
+    opacity: 0.7;
+   
+}
+
+
+.divteam::after
+{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: black;
+    opacity: 0;
+
+    transition: 3s;
+    z-index: -1;
+}
+
+.divteam:hover .h2per
+{
+    color: white;
+}
+
+
+.divteam:hover .h3per
+{
+    color: rgb(182, 29, 100);
+}
+
+.divteam:hover::after
+{
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+
+}

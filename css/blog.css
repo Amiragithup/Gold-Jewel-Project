@@ -1,0 +1,207 @@
+/* -------------------------------------------------------------------- */
+/*Blog*/
+
+.blog
+{
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.123);
+    padding: 55px 0px;
+}
+
+.h2headerblog
+{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(167, 18, 98);
+
+}
+
+
+/* divs */
+
+
+.imgblog
+{
+    background-color: rgba(187, 95, 139, 0.66);
+    width: 200;
+    height: 23vh ;
+    /* border-radius: 50%; */
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+}
+
+.imblog
+{
+    width: 90%;
+    height: 90%;
+    padding: 5px 0px;
+    font-size: 30px;
+}
+
+
+.blogcontainer
+{
+
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+.parentblog
+{
+    position: relative;
+    width: 30%;
+    background-color:rgba(245, 245, 245, 0.375);
+    float: left;
+    text-align: center;
+    height: 55vh;
+    margin-left: 20px;
+    
+}
+
+.h3blog
+{
+    margin-top: -15px;
+}
+
+.divblog
+{
+    width: 100%;
+    height: 100%;
+    
+   
+    
+}
+
+
+
+.parentblog h2
+{
+    font-size: 27px;
+    padding: 20px 3px;
+}
+
+.parentblog h3
+{
+    padding: 7px 5px;
+    line-height: 25px;
+}
+
+
+ .iconsblog
+{
+   
+   display: inline;
+   color: #fff5f5;
+   /* background-color: black; */
+   margin-top: 20px;
+   margin-right: 10px;
+  
+}
+
+.iconsblog h5
+{
+    display: inline;
+}
+
+
+.divblog::after
+{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgb(58, 43, 68);
+    opacity: 0;
+    z-index: -1;
+    transition: 3s;
+}
+
+.divblog:hover::after
+{
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+
+}
+
+
+.bloglink
+{
+
+    font-size: 17px;
+    padding: 9px;
+    border-radius: 50%;
+   
+}
+
+.bloglink a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* -------------------------------------------------------------------- */
+/*contact*/
+.contact
+{
+    
+    width: 100%;
+    
+   
+}
+
+.contactcontainer
+{
+   
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.336);
+    text-align: center; 
+    padding: 20px;
+}
+
+.iconscontact
+{
+    padding: 10px;
+}
+
+.iconscontact i
+{
+    display: inline;
+    font-size: 20px;
+    
+    
+}
+
+
+.h3copy
+{
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}
+
+.iconscontact a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.iconscontact a:hover
+{
+    color: rgb(167, 18, 98);
+}
+

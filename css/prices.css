@@ -1,0 +1,138 @@
+/* -------------------------------------------------------------------- */
+/*prices*/
+
+.prices
+{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.123);
+    padding: 100px 0px;
+}
+
+.h2prices
+{
+
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(167, 18, 98);
+
+}
+
+.h2pri
+{
+    text-transform: uppercase;
+    
+}
+
+
+/* divs */
+
+.imgg
+{
+    background-color: rgba(187, 95, 139, 0.66);
+    width: 100;
+    height: 100;
+    border-radius: 50%;
+    margin: auto;
+
+}
+
+.im
+{
+    width: 100;
+    height: 100;
+    border-radius: 50%;
+   
+   
+}
+
+
+.pricecontainer
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+
+
+.parentprice
+{
+    position: relative;
+    width: 30%;
+    background-color:rgba(245, 245, 245, 0.641);
+    float: left;
+    text-align: center;
+    padding: 20px 15px;
+    height: 65vh;
+}
+
+
+.divprices
+{
+    padding-top: 20px;
+}
+
+
+.parentprice h2
+{
+    font-size: 27px;
+}
+
+.parentprice h3
+{
+    padding: 20px 3px;
+    line-height: 30px;
+}
+
+.parentprice button
+{
+
+    font-size: 17px;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.parentprice button a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+.divprices::after
+{
+    position: absolute;
+    content: "";
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 0;
+
+    background-color: black;
+    opacity: 0;
+    z-index: -1;
+    transition: 3s;
+
+}
+.divprices:hover .h2pri
+{
+    color: rgb(118, 115, 115);
+}
+
+.divprices:hover .imgg
+{
+    background-color: antiquewhite;
+}
+
+.divprices:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    
+    
+}

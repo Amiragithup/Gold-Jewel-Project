@@ -1,0 +1,122 @@
+/* -------------------------------------------------------------------- */
+/*About*/
+.about
+{
+    
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.123);
+
+}
+
+.aboutinfo
+{
+    margin-left: 20px;
+}
+
+
+.h2about1
+{
+    padding-top: 70px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(167, 18, 98);
+}
+
+.h3about
+{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    color: rgb(167, 18, 98);
+    
+}
+
+.h4about
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 5px;
+    line-height: 22px;
+}
+
+/* divs */
+
+.aboutcontainer
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+
+.parentabout
+{
+    position: relative;
+    background-color:rgba(245, 245, 245, 0.375);
+    float: left;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.div2
+{
+   
+    margin: 0px 3%;
+}
+
+.parentabout h4
+{
+    padding: 12px 3px;
+}
+
+.parentabout button
+{
+
+    font-size: 17px;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+
+.parentabout button a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.divabout::after
+{
+    position: absolute;
+    content: "";
+
+    top: 0;
+    left: 0;
+
+    width: 0;
+    height: 0;
+
+    background-color: rgb(12, 12, 12);
+    opacity: 0;
+    z-index: -1;
+    transition: 3s;
+    
+
+}
+.divabout:hover .h3about
+{
+    color: rgb(118, 115, 115);
+}
+
+.divabout:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
